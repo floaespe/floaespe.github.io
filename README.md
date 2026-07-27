@@ -1,20 +1,50 @@
 # floaespe.github.io
+
 # Data Engineering & Applied AI/ML Portfolio
+This repository contains a structured compilation of end-to-end projects, algorithmic scripts, and data workflows developed during my **Postgraduate Program in AI & Machine Learning at The University of Texas at Austin** and my **M.Sc. in Music and Sound Computing**. 
 
-Welcome to my personal showcase repository. This project serves as a comprehensive, structured compilation of advanced exercises, algorithmic implementations, and data workflows developed throughout my technical journey—including my **Postgraduate Program in AI/ML at UT Austin** and **M.Sc. in Music and Sound Computing**. 
+The code in this portfolio demonstrates production-grade scripting, modern data architecture implementations, and data-integrity frameworks optimized for enterprise operations.
 
-The goal of this repository is to demonstrate production-grade coding standards, clean data architecture, and reproducible workflows tailored for modern data ecosystem environments.
+---
 
-## 🛠️ Tech Stack & Concepts Covered
-* **Languages & Core Libraries:** Python (`Pandas`, `NumPy`, `Scikit-Learn`), PySpark, SQL
-* **Architectures & Frameworks:** Extract-Transform-Load (ETL/ELT) development, Data Lakehouse zoning concepts, relational data modeling (PostgreSQL, MySQL).
-* **Data Processing & Analytics:** Exploratory Data Analysis (EDA), predictive analytics, statistical modeling, data cleaning, and standardization pipelines.
-* **Engineering Best Practices:** Object-Oriented Programming (OOP) in Python, script automation, data quality validations, and reproducible analytics code.
+## 📁 Completed Projects Portfolio
 
-## 📁 Repository Structure
-* `/Machine-Learning-Models`: End-to-end predictive modeling projects utilizing Scikit-Learn, featuring meticulous feature engineering, hyperparameter tuning, and validation frameworks.
-* `/Data-Pipelines-ETL`: Python and SQL scripts focused on processing, optimizing, and transforming structured and semi-structured datasets.
-* `/Statistical-Analysis`: Time-series, telemetry processing, and advanced digital analytical modules mapping statistical theory to commercial applications.
+### 1. Credit Card Eligibility Pipeline & Exploration (Finance Domain)
+* **Objective:** Clean, process, and perform deep exploratory data analysis on banking customer profiles to identify key attributes correlated with credit qualification.
+* **Engineering & Data Flow:** 
+  * Handled structural data ingestion, type-casting, and null values utilizing `Pandas` and `NumPy`.
+  * Built functional scripts to isolate data anomalies and compute demographic distribution variables.
+  * Generated descriptive analytics profiles and data distributions using `Seaborn` and `Matplotlib`.
+* **Skills Highlighted:** Data Ingestion, Data Cleansing, Descriptive Analytics, Feature Profiling, Pandas.
 
-## 📈 Objective
-This codebase reflects my capacity to translate raw, multi-source data ecosystems into clean, business-ready data layers—engineered to match the rigorous reliability, performance, and scaling criteria required in enterprise banking and cloud infrastructure ecosystems.
+### 2. Credit Card Fraud Detection & Data Validation (Neural Networks)
+* **Objective:** Design an end-to-end data processing and modeling workflow capable of handling severe target class imbalances to detect fraudulent financial transactions.
+* **Engineering & Data Flow:** 
+  * Engineered pipelines to normalize transaction scales and partition high-volume transaction data securely.
+  * Constructed a Multi-Layer Perceptron neural network model using `TensorFlow` and `Keras` to capture complex relational variations.
+  * Embedded classification assessment matrices to calculate operational data precision, reducing false negatives.
+* **Skills Highlighted:** Deep Learning, Telemetry Parsing, Model Deployment, TensorFlow, Pipeline Optimization.
+
+### 3. Short-Term Rental Price Prediction & Web App Deployment (MLOps)
+* **Objective:** Build an automated machine learning regression workflow to analyze dynamic pricing variations, deploying the final model into an interactive interface.
+* **Engineering & Data Flow:**
+  * Implemented feature scaling and statistical encodings for dense geographical categorical data using `Scikit-Learn`.
+  * Trained and tuned ensemble model algorithms to systematically optimize resource prediction errors.
+  * Developed and hosted a real-time predictive dashboard application using `Streamlit` and `Hugging Face`.
+* **Skills Highlighted:** Model Architecture, Feature Engineering, MLOps, Streamlit, Scikit-Learn.
+
+### 4. Intelligent Retail Query Routing Assistant (Agentic Data Workflows)
+* **Objective:** Construct an intelligent, context-aware event routing pipeline designed to parse, classify, and fulfill multi-step automated user queries.
+* **Engineering & Data Flow:**
+  * Created structured data schemas to maintain state across event loops using `LangGraph` and `LangChain`.
+  * Implemented deterministic programmatic logic rules to prevent hallucinated data routing, ensuring strict fallback procedures.
+  * Connected external APIs with tracking scripts to execute mock database validations and track SLAs.
+* **Skills Highlighted:** Automation Routing, System State-Management, LangGraph, Python Scripting.
+
+---
+
+## 🛠️ Technical Stack Checklist
+* **Languages & Core Processing:** Python, SQL, PySpark, JavaScript, PowerShell
+* **Data Transformation & Modeling:** Pandas, NumPy, Scikit-Learn, TensorFlow, Keras, Statsmodels
+* **Databases & Environments:** PostgreSQL, MySQL, Lakehouse Zoning Concepts, AWS Cloud Infrastructure
+* **Deployment & Monitoring:** Streamlit, Docker, GitHub Version Control, Automated Script Testing
