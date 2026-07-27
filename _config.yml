@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
-title: Felipe's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Felipe Loaiciga - Portfolio
+description: Data Engineering & Applied AI/ML Projects
+include: [notebooks]
