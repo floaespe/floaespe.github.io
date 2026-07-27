@@ -1,4 +1,34 @@
-theme: jekyll-theme-minimal
-title: Felipe Loaiciga - Portfolio
-description: Data Engineering & Applied AI/ML Projects
-include: [notebooks]
+# -------------------------------------------------------------------
+# Site Settings
+# -------------------------------------------------------------------
+theme: jekyll-theme-primer
+title: Felipe Loaiciga Espeleta
+description: Data Engineering & Applied AI/ML Portfolio
+permalink: /:title/
+
+# -------------------------------------------------------------------
+# Author Information
+# -------------------------------------------------------------------
+author:
+  name: Felipe Loaiciga Espeleta
+  email: floaespe@gmail.com
+  location: San José, Costa Rica
+
+# -------------------------------------------------------------------
+# Build Configurations (Critical for Jupyter HTML Notebooks)
+# -------------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM                    # GitHub Flavored Markdown for table/list support
+  syntax_highlighter: rouge     # Ensures clean syntax highlighting for code blocks
+
+# Force Jekyll to build and read your notebooks folder
+include:
+  - notebooks
+
+# Prevent Jekyll from trying to parse styling tags inside your exported Jupyter HTML files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
